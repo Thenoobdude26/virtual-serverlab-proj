@@ -9,7 +9,7 @@ A personal home lab project built on VirtualBox, working through Linux server se
 | VM | OS | Role | IP |
 |---|---|---|---|
 | AllSeeingEye | Rocky Linux 9 | primary server — the thing we're hardening | 192.168.56.10 |
-| TBD | Kubuntu | log collector / SIEM node | 192.168.56.30 |
+| TBD | Kubuntu | client + log collector / SIEM node | 192.168.56.30 |
 | TBD | Windows 11 | client machine / attacker box | 192.168.56.20 |
 
 host machine is Linux Mint 22.1, all VMs run on VirtualBox with NAT (internet) + Host-Only (lab traffic) adapters.
