@@ -71,17 +71,6 @@ sudo bash scripts/cis-audit.sh | tee reports/audit-report.txt
 
 ---
 
-## Key things learned so far
-
-- VirtualBox adapter types matter — NAT Network and plain NAT are different things and mixing them up causes subnet collisions
-- sshd_config lines starting with `#` are comments and do nothing, easy to miss
-- SELinux maintains its own port allowlist — changing SSH port without telling SELinux silently breaks it
-- firewalld zones are per interface — opening a port in `public` doesn't open it in `internal`
-- fail2ban only blocks new connections, not existing sessions
-- sshd has an include system (`/etc/ssh/sshd_config.d/`) that can override your settings without you realizing
-
----
-
 ## References
 
 - Rocky Linux docs: https://docs.rockylinux.org
