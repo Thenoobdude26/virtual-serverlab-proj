@@ -9,7 +9,7 @@ A personal home lab project built on VirtualBox, working through Linux server se
 | VM | OS | Role | IP |
 |---|---|---|---|
 | AllSeeingEye | Rocky Linux 9 | primary server — the thing we're hardening | 192.168.56.10 |
-| TBD | Kubuntu | client + log collector / SIEM node | 192.168.56.30 |
+| ServantOfTheEye | Kubuntu | client + log collector / SIEM node | 192.168.56.30 |
 | TBD | Windows 11 | client machine / attacker box | 192.168.56.20 |
 
 host machine is Linux Mint 22.1, all VMs run on VirtualBox with NAT (internet) + Host-Only (lab traffic) adapters.
@@ -24,9 +24,9 @@ host machine is Linux Mint 22.1, all VMs run on VirtualBox with NAT (internet) +
 | 2 | SSH hardening | done |
 | 3 | Firewall zones + fail2ban | done |
 | 4 | CIS benchmark audit script | done |
-| 5 | Filesystem integrity with AIDE | in progress |
-| 6 | Centralized audit log pipeline | planned |
-| 7 | Ansible security automation | planned |
+| 5 | Filesystem integrity with AIDE | done |
+| 6 | Centralized audit log pipeline | done|
+| 7 | Ansible security automation | in progress |
 | 8 | Custom SELinux policy module | planned |
 | 9 | Internal PKI + mTLS | planned |
 | 10 | Full SOC-in-a-box | planned |
