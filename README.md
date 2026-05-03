@@ -44,7 +44,8 @@ host machine is Linux Mint 22.1, all VMs run on VirtualBox with NAT (internet) +
 ├── docs/
 │   └── rockysetup.md     # initial server setup notes
 ├── notes/
-│   └── progress.md       # running log of what was done, issues hit, lessons learned
+│   ├── issues.md         # all issues hit during the set up 
+│   └── progress.md       # running log of what was done
 ├── screenshots/          # visual proof of work
 ├── scripts/
 │   └── cis-audit.sh      # custom CIS Level 1 audit script
