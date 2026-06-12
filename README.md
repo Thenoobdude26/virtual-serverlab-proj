@@ -78,3 +78,7 @@ sudo bash scripts/cis-audit.sh | tee reports/audit-report.txt
 - firewalld docs: https://firewalld.org/documentation
 - fail2ban wiki: https://github.com/fail2ban/fail2ban/wiki
 - SELinux on RHEL: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/using_selinux
+
+
+accidental format, proj down
+
