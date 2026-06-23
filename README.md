@@ -1,3 +1,5 @@
+# ON HOLD DUE TO HOST OS CHANGING TO ARCH
+
 # Virtual Server Security Lab
 
 A personal home lab project built on VirtualBox, working through Linux server security concepts level by level — kind of like a video game progression. the goal is to go from a fresh Rocky Linux server to a reasonably hardened, monitored, multi-VM environment by the end.
